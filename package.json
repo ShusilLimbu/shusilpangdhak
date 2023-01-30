@@ -2,7 +2,7 @@
   "name": "third-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Shusil-Pangdhak.github.io/react-gh-pages",
+  "homepage":"https://github.com/ShusilLimbu/Shusil-Pangdhak.github.io.git",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
