@@ -1,20 +1,19 @@
 import React from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css';
 import Header from "./Components/Header";
-import Home from "./Components/Home";
 import Footer from "./Components/Footer";
 import Nav from './Components/Nav';
-import Skills from './Components/Skills';
 import Project from './Components/Project';
 import Achive from './Components/Achive';
 import About from './Components/About';
+import Home from './Components/Home';
+import Skills from './Components/Skills';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 const App=()=>{
   return(
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='/shusilpangdhak/'>
     <Header/>
     <Nav/>
     <Routes>

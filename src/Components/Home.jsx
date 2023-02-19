@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Home=(props)=>{
+const Home=()=>{
     return(
-        <div className='home' style={props.darkVariables}>
+        <div className='home'>
             <h1>Hi , I am Shusil Pangdhak</h1>
             <h3>I am React Js Developer </h3>
             <h3>Currently , I am looking for an internship in React Js</h3>
